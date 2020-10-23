@@ -7,10 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TemplateController {
 
-    @RequestMapping("/welcome")
+    @RequestMapping("/")
     public String getWelcome() {
         return "welcomePage.html";
     }
-
 
 }
