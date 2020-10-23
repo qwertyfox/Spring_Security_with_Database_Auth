@@ -9,7 +9,8 @@ public class TemplateController {
 
     @RequestMapping("/")
     public String getWelcome() {
-        return "welcomePage.html";
+        return "welcome.jsp";
+//        return "welcomePage";
     }
 
 }
