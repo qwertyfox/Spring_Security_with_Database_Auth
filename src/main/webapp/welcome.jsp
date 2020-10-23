@@ -7,6 +7,10 @@
 <body>
 <div style="text-align: center;">
    Welcome ${user.getUsername()}
-</div>
+</div><br>
+
+<form action="${pageContext.request.contextPath}/logout">
+   <input type="submit" value="Logout">
+</form>
 
 </body>
