@@ -54,5 +54,8 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
                             .invalidateHttpSession(true)
                             .deleteCookies("JSESSIONID")
                             .logoutSuccessUrl("/login");
+
     }
+
+
 }
