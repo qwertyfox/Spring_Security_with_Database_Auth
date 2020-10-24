@@ -1,11 +1,11 @@
 package com.qwertyfox.encrypted_password.jwt;
 
-public class UsernamePasswordAuthRequest {
+public class UsernamePasswordAuthReq {
 
     private String username;
     private String password;
 
-    public UsernamePasswordAuthRequest(String username, String password) {
+    public UsernamePasswordAuthReq(String username, String password) {
         this.username = username;
         this.password = password;
     }
