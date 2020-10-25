@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TemplateController {
 
     @RequestMapping("/login")
-    public String test() {
+    public String getLogin() {
         return "login.jsp";
     }
 
